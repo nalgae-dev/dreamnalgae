@@ -34,7 +34,7 @@ public class Oman1001Controller {
 
         for (Object[] row : list) {
             Map<String, Object> map = new HashMap<>();
-            map.put("테스트2", "테스트2");
+            map.put("테스트3", "테스트3");
             map.put("userId", row[0]);
             map.put("userNm", row[1]);
             map.put("emailAddr", row[2]);
